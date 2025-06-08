@@ -1,0 +1,2 @@
+age = int(input("Quel est votre âge ? "))
+print("Dans 10 ans, vous aurez", age + 10, "ans.")

@@ -1,0 +1,5 @@
+note = float(input("Entrez votre note (sur 20) : "))
+if note >= 10:
+    print("Admis")
+else:
+    print("Ajourné")
