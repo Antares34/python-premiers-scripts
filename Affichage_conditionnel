@@ -1,4 +1,10 @@
-note = float(input("Entrez votre note (sur 20) : "))
+try:
+  #Demande à l'utilisateur de saisir une note
+  #et affiche "Admis" si la note est supérieure ou égale à 10, sinon "Ajourné"
+    note = float(input("Entrez votre note (sur 20) : "))
+except ValueError:
+    print("Veuillez entrer un nombre valide.")
+    exit()
 if note >= 10:
     print("Admis")
 else:
